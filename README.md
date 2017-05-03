@@ -8,6 +8,8 @@ A Node.js module and CLI for running [PlantUML](http://plantuml.sourceforge.net/
 
 This module also provides an easy to use and flexible command line interface for doing the same kind of operations as enabled by the API.
 
+> This is a FORK from the original node-plantuml. You should almost certainly use the original rather than this project.
+
 Install [Graphviz](http://www.graphviz.org/) to be able to generate all diagram types.
 
 # Install
