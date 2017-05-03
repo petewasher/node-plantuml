@@ -3,6 +3,7 @@ var fs = require('fs')
 var path = require('path')
 var chai = require('chai')
 var plantuml = require('../lib/node-plantuml')
+plantuml.useNailgun()
 
 var TEST_PUML = path.join(__dirname, 'fixtures/test.puml')
 var TEST_PNG = path.join(__dirname, 'fixtures/test.png')
